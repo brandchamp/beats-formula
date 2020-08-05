@@ -2,6 +2,6 @@
 filebeat_install:
     pkg.installed:
         - name: filebeat
-        - version: 6.1.2
+        - version: 7.8.0
         - require:
             - sls: beats.repository
